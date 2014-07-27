@@ -1,5 +1,4 @@
 MODIFIED gdi-detroit-responsive-design-workshop
-======================================
 GDI Detroit Responsive Design curriculum by Nicole Exel
 =======
 Repository: gdi-responsive-gwen
