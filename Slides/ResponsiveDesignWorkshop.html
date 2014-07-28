@@ -114,10 +114,6 @@
       <!-- What is Responsive?-->
 
 
-
-
-
-
       <section>
         <h3>What is Responsive Design?</h3>
         <p>It depends on who you ask!</p>
@@ -133,7 +129,7 @@
       <section>
         <h3>What is Responsive Design?</h3>
         
-        <div style="float: left; width: 60%;"><p style="text-align: left;">The theory and practice of crafting websites that allow the user to enjoy its features <strong>no matter what device they are viewing it on.</strong></p></div>
+        <div style="float: left; width: 60%;"><p style="text-align: left;">Crafting of websites that allow a user to enjoy its features <strong>no matter what device they are viewing it on;</strong> Easy reading and navigation with a minimum of resizing, panning, and scrolling</p></div>
         <div style="float: right; width:40%;"><img src="images/cute.png" width="300px"/></div>
              </section>
 
@@ -145,14 +141,13 @@
         <div class="left" style="width: 100%; font-size: 70%; line-height: 1.2em;">
           <ul>
 
-            <li class="fragment" style="margin-bottom: 10px;"><span class="green">Pew Research Internet Project Data; January 2014</span>.</li>
             <li class="fragment" style="margin-bottom: 10px;"></span>90% of Americans have a cell phone</li>
             <li class="fragment" style="margin-bottom: 10px;"></span>58% of Americans have a smart phone</li>
             <li class="fragment" style="margin-bottom: 10px;"></span>42% of Americans have a tablet</li>
              <li class="fragment" style="margin-bottom: 10px;"></span>54% of Americans with a disability use the internet (compared to 81% reporting no disabilities)</li>
 <div style="float: right; width:40%;"><img src="images/oneweb.jpg" width="400px"/></div> 
             
-            <li class="fragment" style="margin-bottom: 10px;"><a href="http://www.pewinternet.org/fact-sheets/mobile-technology-fact-sheet/">Pew Internet Project</a></li>
+            <li class="fragment" style="margin-bottom: 10px;"><a href="http://www.pewinternet.org/fact-sheets/mobile-technology-fact-sheet/" target="_blank">Pew Internet Project</a></li>
             <li class="fragment" style="margin-bottom: 10px;"><a href="http://www.pewinternet.org/2011/01/21/americans-living-with-disability-and-their-technology-profile/">Pew Internet Project Disability Report</a></li>
           </ul>
         </div>
@@ -204,7 +199,7 @@
  <section>
         <h3>Fluid Design: Fixed, Responsive, or Jello?</h3>
 
-        <p style="text-align: left;">Sometimes there are good reasons to choose fixed layouts that don't adapt to screen size (<a href="http://www.fao.org/docrep/003/x6879e/X6879E03.htm#ch3">tabular data</a>, etc)</p>
+        <p style="text-align: left;">Sometimes there are good reasons to choose fixed layouts that don't adapt to screen size (<a href="http://www.fao.org/docrep/003/x6879e/X6879E03.htm#ch3" target="_blank">tabular data</a>, etc)</p>
 <br> <br>
         <p style="text-align: left;"><em>(Remember “best viewed in Internet Explorer at 680x480px”? Avoiding browser hassles for the designer is not a valid reason!)</em></p>
 
@@ -216,15 +211,16 @@
         <h3>Fluid Design: Fixed, Responsive, or Jello?</h3>
         
         <p style="text-align: left;">Infinately stretched text is difficult to read, so some limits on flexibilty are useful.</p>
-        <p style="text-align: left;">Most sites combine elements of both fixed and fluid design; it's <a href="http://sandbox.mikepurvis.com/css/jello/index2.php">both solid and liquid.</a></p>
-
+        <p style="text-align: left;">Most sites combine elements of both fixed and fluid design; it's <a href="http://sandbox.mikepurvis.com/css/jello/index2.php" target="_blank">both solid and liquid.</a></p>
+        <p style="text-align: left;">min-width, max-width, floats, Percentages, and <a href="pxtoem.com" target="_blank">converting Pixels to ems</a> are all ways to control how fluid a design is via CSS</p>
 
       </section>
-  
+
+
      <section>
         <h3>Fluid Design</h3>
         
-        <p style="text-align: left;"><strong>No one ever has enough Time or Money</strong></p>
+        <p style="text-align: left;"><strong>No one EVER has enough Time or Money</strong></p>
         <p style="text-align: left;">Clients sometimes want to skip fluid design because it takes a little more of both. Talk them out of that.
 
 
@@ -290,7 +286,7 @@
       <section>
 
         <h3>Media Queries is  CSS for certain situations</h3>
-        <p>Rather than looking for a type of device, look at the capability of the device, and you can use them to check for all kinds of things. </p>
+        <p style="text-align: left;">Rather than looking for a type of device, look at the capability of the device, and you can use them to check for all kinds of things. </p>
         <ul>
           <li>width and height (of the browser window)</li>
           <li>device width and height</li>
@@ -312,30 +308,35 @@
 
         <section>
           <h3>Which browsers support media queries?</h3>
-          <p>Current versions of all major browsers support media queries. There will always be someone who is, for whatever reason, using an ancient browser.</p><p>Some examples:</p>
-          <ul><li>Internet Explorer 7</li>
-          </ul>
-          <p>A complete list of media query support:<a href="http://caniuse.com/css-mediaqueries" target="_blank">http://caniuse.com/css-mediaqueries</a></p>
+         <p style="text-align: left;">Current versions of all major browsers support media queries. There will always be someone who is, for whatever reason, using an ancient browser.</p>
+          
+         <p style="text-align: left;">A complete list of media query support:<a href="http://caniuse.com/css-mediaqueries" target="_blank">http://caniuse.com/css-mediaqueries</a></p>
         </section>
 
         <section>
           <h3>I need my site to be responsive in an old browser</h3>
-          <p>Implement some code sorcery like these:</p>
+          <p style="text-align: left;">Implement some code sorcery like these:</p>
           <ul><li><a href="http://modernizr.com/" target="_blank">Modernizr</a></li>
             <li><a href="https://github.com/scottjehl/Respond" target="_blank">Respond.js</a></li>
           </ul>
 
         </section>
 
-
       <section>
         <h3>What about "Mobile First"?</h3>
-        <p>Don't offer "lighter" content or a restricted experience to those viewing your site on a mobile device. </p>
-          <p>Plan your site out thoughtfully so your content is  concise and simplified to begin with. </p>
-        <p>Sometimes mobile sites offer same content in a different order, to reflect needs of users.</p>
+        <p style="text-align: left;">"Lighter" content or a restricted experience for those viewing your site on a mobile device isn't ok. </p>
+        <p style="text-align: left;">Offering the same content in a different order, to reflect needs of users, IS ok.</p>
+        <p style="text-align: left;">Plan your site out thoughtfully so your content is  concise and simplified to begin with. If people don't need it on mobile....maybe no one needs it. </p>
 
       </section>
 
+   <section>
+        <h3>"Mobile First" Design Tip from Gwen</h3>
+        <p style="text-align: left;">A handy test: turn off CSS on your website. Does it still make sense? This is a good way to see if your content is organized logically, and serves only what is needed.</p>
+        <p style="text-align: left;">Each linked resource (images, style sheets and other objects) requires a separate request across the network. </p>
+        <p style="text-align: left;">Speeding mobile page load time can also help speed elsewhere, and identify elements that are  "decorative" and can be chucked, or loaded last. </p>
+
+      </section>
 
       <section>
         <h3>What is Responsive NOT?</h3>
@@ -344,8 +345,6 @@
         <img src="images/target01.png" width="200px"/>
         <img src="images/target5.png" width="200px"/><img src="images/target03.png" width="200px"/><img src="images/target04.png" width="200px"/>
       </section>
-
-
 
       <!-- Break -->
       <section>
